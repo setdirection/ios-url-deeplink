@@ -1,0 +1,40 @@
+body {
+ padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+}
+
+#status {
+  padding: 10px;
+}
+
+textarea#snippet {
+  width: 500px;
+}
+
+.snippet {
+  padding: 20px 10px;
+  border: 1px solid #fff;
+}
+
+.snippet:hover {
+  border: 1px solid #eee;
+}
+
+.snippet:nth-child(2n) {  
+  background-color: #efefef;
+}
+
+.snippet a {
+  display: block;
+  padding: 10px 2px;
+}
+
+.snippet .created {
+  position: relative;
+  float: right;
+  font-style: italic;
+  font-size: small;
+  padding: 5px 2px;
+  display: block;
+  top: -6px;
+  opacity: 0.9;
+}
