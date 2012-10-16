@@ -43,7 +43,7 @@ app.get('/walmartproduct', function(req, res) {
 });
 
 app.get('/walmartproduct2', function(req, res) {
-  res.redirect(302, 'walmartproduct://21092475');
+  res.redirect(302, 'walmart://browse/aHR0cDovL3d3dy53YWxtYXJ0LmNvbS9icm93c2UvcGFydHktb2NjYXNpb25zL2hhbGxvd2Vlbi1pbmZsYXRhYmxlcy8yNjM3XzYxNTc2MF8xMDczNjg0XzEwNzMzMjRfNDMwNzI2Lz9fcmVmaW5lcmVzdWx0PXRydWUmY2F0TmF2SWQ9NjE1NzYwJnBvdmlkPWNhdDYxNTc2MC1lbnY5OTk5OTktbW9kdWxlMDgwNzEyLUxITl9JbmZsYXRhYmxlcw');
 });
 
 //

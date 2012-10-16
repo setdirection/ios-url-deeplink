@@ -1,7 +1,8 @@
 Here are the tests:
 
 <ul>
-<li><a href="/walmartproduct">walmartproduct://21092475</a> - via HTML window.location
-<li><a href="/walmartproduct2">walmartproduct://21092475</a> - via redirect
+<li><a href="/walmartproduct">walmart://browse/...</a> - via HTML window.location
+<li><a href="/walmartproduct2">walmart://browse/...</a> - via redirect
 <li><a href="http://youtu.be/wEZlUgzQWig">http://youtu.be/wEZlUgzQWig</a>
 </ul>
+
