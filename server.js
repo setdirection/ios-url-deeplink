@@ -9,7 +9,7 @@ var express = require('express'),
 // Loading our code
 var app = express(),
     opts = {
-      port: 8001
+      port: process.env.PORT || 8001
     };
 
 //
